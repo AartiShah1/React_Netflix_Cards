@@ -1,0 +1,19 @@
+Command
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/AartiShah1/jQuery.git
+git remote -v
+git push origin master
+
+
+
+Second Option
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main (if branch is master/main see that)
+git remote add origin https://github.com/AartiShah1/jQuery.git
+git push -u origin main
+
