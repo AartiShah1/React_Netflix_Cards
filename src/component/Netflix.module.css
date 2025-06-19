@@ -1,0 +1,53 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #1e1e1e;
+  color: #fff;
+  border-radius: 1.6rem;
+  overflow: hidden;
+  margin: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+              rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.5s ease;
+  animation-duration: 1s;
+}
+
+.imageWrapper img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.imageWrapper:hover img {
+  transform: scale(1.05);
+}
+
+.cardContent {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  background-color: #2c2c2c;
+}
+
+.rating {
+  padding: 0.4rem 1.6rem;
+  color: #000;
+  font-weight: bold;
+  margin-left: 0.5rem;
+  border-radius: 9999px;
+  background-color: #ddd;
+}
+
+.super_hit {
+  background-color: #7dcea0;
+}
+
+.average {
+  background-color: #f7dc6f;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
